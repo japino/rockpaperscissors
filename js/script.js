@@ -1,8 +1,8 @@
 // *************************** YOUR CODE BELOW *******************************
 document.getElementById("shoot").onclick = function() {
-  var choice = document.getElementById("input").value;
+  var choice = $("#input").val();
   console.log(choice)
-  document.getElementById("userChoice").innerText = choice;
+  $("#userChoice").text(choice);
 }
 //******************TEST EARLY AND OFTEN USING console.log() ******************
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
